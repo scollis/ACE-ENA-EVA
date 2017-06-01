@@ -1,8 +1,8 @@
 name: aceena
- channels:
+channels:
    - conda-forge
- dependencies:
-   - python=3.5
+dependencies:
+   - python=3.6
    - numpy
    - matplotlib
    - cartopy
@@ -16,3 +16,4 @@ name: aceena
    - basemap
    - basemap-data-hires
    - boto3
+   - urllib3
